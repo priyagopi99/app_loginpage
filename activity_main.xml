@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/userID"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="32dp"
+        android:hint="Mobile number or email address"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18dp"
+        android:width="32dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/else"
+        android:layout_height="match_parent"
+        android:text="or"
+        android:textAlignment="center" />
+
+
+
+
+    <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:background="#1976D2"
+            android:text="Log In"
+            android:textColor="#FCF7F7" />
+
+
+
+    <Button
+        android:id="@+id/newacnt"
+        android:layout_width="309dp"
+        android:layout_height="78dp"
+        android:background="#24D127"
+        android:text="Create New Account"
+         android:layout_below="@id/loginbtn"
+        />
+
+
+</LinearLayout>
